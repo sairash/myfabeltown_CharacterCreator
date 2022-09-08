@@ -9,13 +9,12 @@
     export let accessories;
     export let eyes;
     export let mouth;
-    export let face_color;
 </script>
 
 <g transform="translate(-30.17 -65.855)" class="upper_body">
     <g class="head">
 
-        <Face {face_color}/>
+        <Face />
 
         <Eyes {...eyes} />
 
