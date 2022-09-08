@@ -6,13 +6,14 @@
     import Head from "./head/head.svelte";
 
 
+    export let accessories;
     export let eyes;
     export let mouth;
     export let face_color;
 </script>
 
-<g transform="translate(-29 -92.266)" class="upper_body">
-    <g stroke-width="1.9" fill="none" stroke="#000"  class="head">
+<g transform="translate(-30.17 -65.855)" class="upper_body">
+    <g class="head">
 
         <Face {face_color}/>
 
@@ -24,3 +25,5 @@
 
     </g>
 </g>
+
+<Accessories {accessories}/>

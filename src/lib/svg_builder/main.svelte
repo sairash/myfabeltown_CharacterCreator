@@ -7,7 +7,8 @@
 </script>
 
 
-<svg stroke-linecap="round" stroke-linejoin="round" class="h-full" viewBox="0 0 121.6 140.76" version="1.1"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+
+<svg stroke-linecap="round" stroke-linejoin="round" class="h-full" viewBox="0 0 119.16 167.17" version="1.1"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
     <Body {...body_part} />
     <Head {...head_part}/>
 </svg>
