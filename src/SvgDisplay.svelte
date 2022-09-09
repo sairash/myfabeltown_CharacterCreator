@@ -5,6 +5,7 @@
     export let head_part;
 </script>
 
-<div class="main_display w-screen h-96 bg-red-500 flex justify-center">
+
+<div class="w-full h-full sm:max-w-sm pt-5 flex justify-center bg-green-500">
     <SvgBuilder {body_part} {head_part} />
 </div>

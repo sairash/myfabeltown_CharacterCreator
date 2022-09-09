@@ -8,7 +8,7 @@
 
 
 
-<svg stroke-linecap="round" stroke-linejoin="round" class="h-full" viewBox="0 0 119.16 167.17" version="1.1"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<svg stroke-linecap="round" stroke-linejoin="round" class="w-full sm:h-full sm:w-auto max-w-xs" style="max-width: 200px" viewBox="0 0 119.16 167.17" version="1.1"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
     <Body {...body_part} />
     <Head {...head_part}/>
 </svg>

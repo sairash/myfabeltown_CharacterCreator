@@ -4,7 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte</title>
+    <title>myfabletown</title>
+    <link href="http://fonts.cdnfonts.com/css/futura-md-bt" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Futura Lt BT", sans-serif;
+        font-weight: 600;
+      }
+      .bold_text {
+        font-family: "Futura Hv BT", sans-serif !important;
+      }
+      .changeable_item_container {
+        max-height: 300px;
+      }
+
+      @media only screen and (max-width: 640px) {
+        .changeable_item_container {
+          max-height: 200px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
