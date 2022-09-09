@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --svooltip-bg: #fff;
+  --svooltip-text: #000;
+  --svooltip-padding: 4px 10px;
+  --svooltip-weight: 600;
+  --svooltip-text-size: 16px;
+  --svooltip-shadow: 0 3px 7px rgb(0 0 0 / 0.25);
+  /* --svooltip-arrow-size: 6px; */
+}
+.svooltip-arrow {
+  display: none;
+}
+.svooltip {
+  border: 2px black solid;
+}
+* {
+  font-family: "Futura Lt BT", sans-serif;
+  font-weight: 600;
+}
+.bold_text {
+  font-family: "Futura Hv BT", sans-serif !important;
+}
+.changeable_item_container {
+  max-height: 300px;
+}
+
+@media only screen and (max-width: 640px) {
+  .changeable_item_container {
+    max-height: 200px;
+  }
+}

@@ -25,8 +25,6 @@
       body_color: '#ffea31',
     }
   }
-
-
 </script>
 
 <main>
