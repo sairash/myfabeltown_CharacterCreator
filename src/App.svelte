@@ -152,11 +152,8 @@
             </div>
           </div>
         </div>
-        <div
-          class="w-full h-full sm:max-w-sm pt-5 flex justify-center bg-green-500"
-        >
         <SvgDisplay {...character}/>
-        </div>
+        
       </div>
     </div>
   </div>
