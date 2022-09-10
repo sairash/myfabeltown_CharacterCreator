@@ -22,7 +22,6 @@
     }
 
     function page_change(direction, button = false){
-        console.log(button)
         if(button){
             if(tip_active){
                 toast('Swipe for easy use.', {
@@ -80,7 +79,7 @@
     <Main {pages} {build_number} {animation_direction} on:page_change_swipe={page_change_swipe} />
     <div class="w-full h-10 border-black rounded-b-md border-t-2 flex justify-between bg-white">
         <div class="mx-2 text-md group cursor-pointer">
-            <div class="bg-red-400 mt-1 group-hover:bg-red-500 border-black border-2 rounded-md" use:tooltip={{ content: "Go Left", placement: 'right', delay: [500, 0]}}>
+            <div class="bg-red-400 mt-1 group-hover:bg-red-500 border-black border-2 rounded-md" use:tooltip={{ content: "Go Back or to home page.", placement: 'right', delay: [500, 0]}}>
                 <i class="bx bx-left-arrow-alt p-1"></i>
             </div>
         </div>

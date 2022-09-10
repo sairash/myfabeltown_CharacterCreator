@@ -2,29 +2,6 @@
   import SvgDisplay from './SvgDisplay.svelte';
   import SvgBuildController from './SvgBuildController.svelte'
 
-  let character = {
-    head_part:{
-      accessories: 'hair',
-      eyes:{
-        right: 'right_1',
-        middle: null,
-        left: 'left_1'
-      },
-      mouth: 'mouth_1',
-    },
-    body_part:{
-      accessories:'tie',
-      hands:{
-        left: 'left_1',
-        right: 'right_1' 
-      },
-      legs:{
-        left: 'left_1',
-        right: 'right_1'
-      },
-      body_color: '#ffea31',
-    }
-  }
 </script>
 
 <main>
@@ -34,7 +11,7 @@
         class="w-full cursor-default h-full sm:h-96 max-w-screen-lg bg-white border-2 border-black rounded-md flex flex-col-reverse sm:flex-row"
       >
         <SvgBuildController />
-        <SvgDisplay {...character}/>
+        <SvgDisplay/>
         
       </div>
     </div>
