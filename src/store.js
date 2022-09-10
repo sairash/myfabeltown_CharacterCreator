@@ -27,8 +27,18 @@ export const character = writable({
 export const character_set = readable({
   head_part: {
     accessories: [
-      { name: "null", command: "hair" },
-      { name: "crown", command: "crown" },
+      {
+        name: "null",
+        command: "hair",
+        image:
+          "https://github.com/sairash/myfabletown_images/raw/main/png/head_part/accessories/hair.png",
+      },
+      {
+        name: "crown",
+        command: "crown",
+        image:
+          "https://github.com/sairash/myfabletown_images/raw/main/png/head_part/accessories/crown.png",
+      },
     ],
     eyes: {
       right: "right_1",

@@ -15,7 +15,7 @@
 
     <div class="w-20 h-20 m-2  cursor-pointer border-2 border-black rounded-md text-center" class:bg-red-500="{part.command == $character.head_part.accessories}" on:click="{()=> change_value(part.command)}">
         <div class="w-full flex justify-center">
-            <img src="/src/assets/character_png/{part.command}.png" class="object-contain w-14 h-14" alt="">
+            <img src="{part.image}" class="object-contain w-14 h-14" alt="{part.name}">
         </div>
         {part.name}
     </div>
